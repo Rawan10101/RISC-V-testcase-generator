@@ -12,7 +12,6 @@
 
 using namespace std;
 
-// ---------------------- Tables (bit-strings as in Python) --------------------
 static const unordered_map<string,string> OPCODES = {
     {"LUI","0110111"},{"AUIPC","0010111"},{"JAL","1101111"},{"JALR","1100111"},
     {"BEQ","1100011"},{"BNE","1100011"},{"BLT","1100011"},{"BGE","1100011"},{"BLTU","1100011"},{"BGEU","1100011"},
